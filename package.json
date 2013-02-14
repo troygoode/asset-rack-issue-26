@@ -1,0 +1,13 @@
+{
+  "name": "gist4950831",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "asset-rack": "*",
+    "express": "*",
+    "jade": "*"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}
