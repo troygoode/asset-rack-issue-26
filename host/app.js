@@ -1,9 +1,10 @@
 var express = require('express'),
-    exampleApp = require('./example/app');
+    exampleApp = require('../example/app');
 
 var app = module.exports = express();
 
 app.set('view engine', 'jade');
+app.set('views', __dirname + '/views');
 
 app.use('/example', exampleApp);
 app.use(app.router);

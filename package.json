@@ -8,6 +8,6 @@
     "jade": "*"
   },
   "scripts": {
-    "start": "node app.js"
+    "start": "node host/app.js"
   }
 }

@@ -10,16 +10,16 @@
 7 info prestart gist4950831@0.0.1
 8 info start gist4950831@0.0.1
 9 verbose unsafe-perm in lifecycle true
-10 silly exec sh "-c" "node app.js"
-11 silly sh,-c,node app.js,/Users/troy/dev/4950831 spawning
+10 silly exec sh "-c" "node host/app.js"
+11 silly sh,-c,node host/app.js,/Users/troy/dev/4950831 spawning
 12 info gist4950831@0.0.1 Failed to exec start script
-13 error gist4950831@0.0.1 start: `node app.js`
-13 error `sh "-c" "node app.js"` failed with 1
+13 error gist4950831@0.0.1 start: `node host/app.js`
+13 error `sh "-c" "node host/app.js"` failed with 1
 14 error Failed at the gist4950831@0.0.1 start script.
 14 error This is most likely a problem with the gist4950831 package,
 14 error not with npm itself.
 14 error Tell the author that this fails on your system:
-14 error     node app.js
+14 error     node host/app.js
 14 error You can get their info via:
 14 error     npm owner ls gist4950831
 14 error There is likely additional logging output above.
