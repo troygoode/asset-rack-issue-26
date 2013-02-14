@@ -12,4 +12,4 @@ http://localhost:3000/example/css/app-a8c4e5f26745712564df2a8a9f6e1bf5.css
 
 Unfortunately changing the call to `assets#tag` from
 `assets.tag('/css/app.css')` to `assets.tag('/example/css/app.css')`
-causes asset-rack to break.
+causes asset-rack to break saying "No asset found for url: /example/css/app.css".
