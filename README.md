@@ -1,6 +1,6 @@
 Repro example for [issue #26](https://github.com/techpines/asset-rack/issues/26) of asset-rack. This is a problem that only occurs with [mounting sub-apps](http://vimeo.com/56166857).
 
-Clone, run "npm install", run "npm start", then open localhost:3000. You'll see that when you
+Clone, run `npm install`, run `npm start`, then open localhost:3000. You'll see that when you
 click through to the example page the CSS doesn't load. The tag will be
 generating a URL like:
 
